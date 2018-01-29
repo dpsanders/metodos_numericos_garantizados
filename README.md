@@ -23,7 +23,7 @@ de estos métodos se llevará a cabo enfatizando aspectos modernos de los lengua
 Las herramientas que se utilizarán en el curso incluyen los siguientes:
 
 - el lenguaje [Julia](www.julialang.org)
-- el sistema de control de versions `git`, y el sitio web [`GitHub`]
+- el sistema de control de versions `git`, y el sitio web [`GitHub`](www.github.com)
 - el notebook de [Jupyter](www.jupyter.org)
 
 Se enfatizarán tanto la parte matemática como la parte de la implementación computacional de los métodos.
