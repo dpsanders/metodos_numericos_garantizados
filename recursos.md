@@ -19,6 +19,18 @@
     julia> notebook()
     ```
 
+- Hacer alias de bash para poder correr Julia directamente desde la terminal:
+    - Edita el archivo `.bashrc` (Linux) o `.bash_profile` (Mac) que se encuentra en tu directorio hogar (`~`), usando tu editor de texto favorito, y agrega las siguientes dos líneas
+
+    ```
+    alias julia="<dirección del binario>"
+    alias ijulia="julia -e 'using IJulia; notebook(dir=pwd())'"
+    ```
+
+    Aquí, tendrás que rellenar la dirección en tu máquina del binario de Julia en lugar de  `<dirección del binario>`
+
+    Ahora podrás lanzar Julia con el comando `julia`, y el notebook con `ijulia`.
+
 - Aprender Julia:
     - Lista de recursos: http://www.julialang.org/learning
     - Cheatsheets (primeros dos en la sección de Recursos)
@@ -28,4 +40,4 @@
 - Entornos integrados para desarrollar código de Julia:
     (Software libre, disponible en cualquier plataforma):
     - [Juno IDE](http://junolab.org/)
-    - [Visual Studio Code Julia plugin](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) 
+    - [Visual Studio Code Julia plugin](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)
