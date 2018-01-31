@@ -8,6 +8,8 @@
 
 - 12 créditos; 6 horas a la semana
 
+- Horario: Lunes 12-15 y martes 11-14, Aula de Cómputo III, 2o. piso, Departamento de Física, Facultad de Ciencias
+
 ## Objetivo
 El objetivo del curso es introducir una serie de métodos modernos de la matemática y física computacionales que permiten calcular con conjuntos y establecer resultados
 garantizados (rigurosos), a partir de cálculos numéricos con números de punto flotante.
